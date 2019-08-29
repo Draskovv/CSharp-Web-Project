@@ -13,6 +13,13 @@
             <input type="number" step="0.01" min="0.00" class="form-control" placeholder="Price..." name="price">
         </div>
         <div class="form-group">
+            <label asp-for="Image">Image</label>
+            <input type="file" name="Image" id="Image">
+            <!--
+                <textarea class="form-control" rows="4" placeholder="Upload image..." asp-for="Image"></textarea>
+                -->
+        </div>
+        <div class="form-group">
             <label asp-for="Description">Description</label>
             <textarea class="form-control" rows="4" placeholder="Description..." asp-for="Description"></textarea>
         </div>
