@@ -52,6 +52,7 @@ namespace Prodavam.App.Controllers
                 Name = model.Name,
                 Description = model.Description,
                 Price = model.Price,
+                Image = model.Image.ToString(),
                 Type = Enum.Parse<ProductType>(model.Type)
             };
 
